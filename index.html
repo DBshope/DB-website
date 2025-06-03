@@ -1,566 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dheeraj Bhat | Entrepreneur</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --light-color: #ecf0f1;
-            --dark-color: #2c3e50;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--dark-color);
-            background-color: #f9f9f9;
-        }
-        
-        .hero {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            color: white;
-            padding: 5rem 0;
-            margin-bottom: 3rem;
-        }
-        
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border: 5px solid white;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .section-title {
-            position: relative;
-            margin-bottom: 2rem;
-            color: var(--primary-color);
-        }
-        
-        .section-title:after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background: var(--secondary-color);
-        }
-        
-        .service-card {
-            border: none;
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin-bottom: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-        
-        .service-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-        }
-        
-        .service-icon {
-            font-size: 2rem;
-            color: var(--secondary-color);
-            margin-bottom: 1rem;
-        }
-        
-        .contact-link {
-            color: var(--secondary-color);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        
-        .contact-link:hover {
-            color: var(--primary-color);
-        }
-        
-        footer {
-            background-color: var(--dark-color);
-            color: white;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-        
-        .social-icon {
-            color: white;
-            font-size: 1.5rem;
-            margin: 0 10px;
-            transition: color 0.3s ease;
-        }
-        
-        .social-icon:hover {
-            color: var(--secondary-color);
-        }
-    </style>
-</head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Dheeraj Bhat | Entrepreneur</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <body>
-    <!-- Hero Section -->
-    <section class="hero text-center">
-        <div class="container">
-            <img src="https://ui-avatars.com/api/?name=Dheeraj+Bhat&background=random&size=150&rounded=true" alt="Dheeraj Bhat" class="profile-img rounded-circle mb-4">
-            <h1 class="display-4 fw-bold mb-3">Dheeraj Bhat</h1>
-            <p class="lead mb-4">Entrepreneur</p>
-            <p class="w-75 mx-auto">I am here to support your business journey. My role is to guide you through the complexities of market, making learning engaging and effective.</p>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-title d-inline-block">What I Do</h2>
-                <p class="mb-5">I help businesses thrive in the online marketplace with specialized services tailored to your needs.</p>
-                
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="service-card card h-100 p-4">
-                            <div class="service-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                            <h3>Online Order Collection</h3>
-                            <p>We collect all your online orders efficiently and systematically.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="service-card card h-100 p-4">
-                            <div class="service-icon">
-                                <i class="fas fa-leaf"></i>
-                            </div>
-                            <h3>Local Product Sourcing</h3>
-                            <p>We collect local organic products and other items for your business needs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h2 class="section-title d-inline-block">Get In Touch</h2>
-                <p class="mb-5">Feel free to reach out for collaborations or just a friendly hello.</p>
-                
-                <div class="card border-0 shadow-sm p-4">
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            <li class="mb-3">
-                                <i class="fas fa-envelope me-2"></i>
-                                <a href="mailto:udog4729@gmail.com" class="contact-link">udog4729@gmail.com</a>
-                            </li>
-                            <li class="mb-3">
-                                <i class="fab fa-facebook me-2"></i>
-                                <a href="http://www.facebook.com/share/1GwRopXcda/" target="_blank" class="contact-link">Connect on Facebook</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="container">
-            <div class="mb-4">
-                <a href="http://www.facebook.com/share/1GwRopXcda/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-                <a href="mailto:udog4729@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-            </div>
-            <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Dheeraj Bhat. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Simple animation on scroll
-        document.addEventListener('DOMContentLoaded', function() {
-            const serviceCards = document.querySelectorAll('.service-card');
-            
-            const animateOnScroll = function() {
-                serviceCards.forEach(card => {
-                    const cardPosition = card.getBoundingClientRect().top;
-                    const screenPosition = window.innerHeight / 1.3;
-                    
-                    if (cardPosition < screenPosition) {
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    }
-                });
-            };
-            
-            // Set initial state
-            serviceCards.forEach(card => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
-                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-            });
-            
-            window.addEventListener('scroll', animateOnScroll);
-            animateOnScroll(); // Run once on load
-        });
-    </script>
+ <section>
+ <div>
+ <img src="https://ui-avatars.com/api/?name=Dheeraj+Bhat&background=random&size=150&rounded=true" alt="Dheeraj Bhat">
+ <h1>Dheeraj Bhat</h1>
+ <p>Entrepreneur</p>
+ <p>I am here to support your business journey. My role is to guide you through the complexities of market, making learning engaging and effective.</p>
+ </div>
+ </section>
+ <section>
+ <div>
+ <div>
+ <h2>What I Do</h2>
+ <p>I help businesses thrive in the online marketplace with specialized services tailored to your needs.</p>
+ <div>
+ <div>
+ <div>
+ <div>
+ </div>
+ <h3>Online Order Collection</h3>
+ <p>We collect all your online orders efficiently and systematically.</p>
+ </div>
+ </div>
+ <div>
+ <div>
+ <div>
+ </div>
+ <h3>Local Product Sourcing</h3>
+ <p>We collect local organic products and other items for your business needs.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <div>
+ <h2>Get In Touch</h2>
+ <p>Feel free to reach out for collaborations or just a friendly hello.</p>
+ <div>
+ <div>
+ <ul>
+ <li>
+ <a href="mailto:udog4729@gmail.com">udog4729@gmail.com</a>
+ </li>
+ <li>
+ <a href="http://www.facebook.com/share/1GwRopXcda/" target="_blank">Connect on Facebook</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <footer>
+ <div>
+ <div>
+ </div>
+ <p>&copy; Dheeraj Bhat. All rights reserved.</p>
+ </div>
+ </footer>
 </body>
-</html> 
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Web Solutions | Your Business Growth Partner</title>
-    <meta name="description" content="We help businesses grow with custom web development, SEO, and digital marketing solutions.">
-    <link rel="stylesheet" href="styles.css">
-</head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Premium Web Solutions | Your Business Growth Partner</title>
+ <meta name="description" content="We help businesses grow with custom web development, SEO, and digital marketing solutions.">
 <body>
-    <!-- Navigation -->
-    <nav class="main-nav">
-        <div class="container">
-            <a href="/" class="logo">WebSolutions</a>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact" class="cta-button">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Transform Your Online Presence</h1>
-                <p class="subtitle">We create stunning, high-performance websites that drive results and grow your business.</p>
-                <div class="hero-cta">
-                    <a href="#contact" class="cta-button primary">Free Consultation</a>
-                    <a href="#portfolio" class="cta-button secondary">View Our Work</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/hero-image.png" alt="Website design illustration">
-            </div>
-        </div>
-    </header>
-
-    <!-- Trust Indicators -->
-    <section class="trust-badges">
-        <div class="container">
-            <p>Trusted by leading brands:</p>
-            <div class="badges">
-                <img src="images/client1.png" alt="Client logo">
-                <img src="images/client2.png" alt="Client logo">
-                <img src="images/client3.png" alt="Client logo">
-                <img src="images/client4.png" alt="Client logo">
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Our Comprehensive Services</h2>
-            <p class="section-intro">We offer end-to-end digital solutions tailored to your business needs.</p>
-            
-            <div class="service-grid">
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3>Web Design</h3>
-                    <p>Beautiful, responsive designs that engage your audience and reflect your brand.</p>
-                    <a href="#" class="learn-more">Learn more →</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">⚙️</div>
-                    <h3>Web Development</h3>
-                    <p>Custom-built websites with clean code and powerful functionality.</p>
-                    <a href="#" class="learn-more">Learn more →</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">📈</div>
-                    <h3>SEO Optimization</h3>
-                    <p>Get found online with our proven search engine optimization strategies.</p>
-                    <a href="#" class="learn-more">Learn more →</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">✉️</div>
-                    <h3>Email Marketing</h3>
-                    <p>Convert leads to customers with targeted, automated email campaigns.</p>
-                    <a href="#" class="learn-more">Learn more →</a>
-                </div>
-            </div>
-            
-            <div class="service-cta">
-                <p>Not sure what you need? We'll help you choose the right solutions.</p>
-                <a href="#contact" class="cta-button primary">Get Personalized Recommendations</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Our Recent Work</h2>
-            <p class="section-intro">See how we've helped businesses like yours achieve remarkable results.</p>
-            
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="images/portfolio1.jpg" alt="E-commerce website">
-                    <div class="portfolio-overlay">
-                        <h3>GreenLife Organics</h3>
-                        <p>E-commerce website with 300% revenue growth</p>
-                        <a href="#" class="cta-button small">Case Study</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item">
-                    <img src="images/portfolio2.jpg" alt="Corporate website">
-                    <div class="portfolio-overlay">
-                        <h3>FinTrust Capital</h3>
-                        <p>Corporate website with lead gen system</p>
-                        <a href="#" class="cta-button small">Case Study</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item">
-                    <img src="images/portfolio3.jpg" alt="Mobile app">
-                    <div class="portfolio-overlay">
-                        <h3>FitTrack App</h3>
-                        <p>Fitness tracking progressive web app</p>
-                        <a href="#" class="cta-button small">Case Study</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="portfolio-cta">
-                <a href="#" class="cta-button secondary">View Full Portfolio</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>What Our Clients Say</h2>
-            
-            <div class="testimonial-slider">
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <p>"WebSolutions transformed our online presence. Our website traffic increased by 450% and our conversion rate tripled within 6 months of working with them."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/client1.jpg" alt="Sarah Johnson">
-                        <div>
-                            <h4>Sarah Johnson</h4>
-                            <p>CEO, GreenLife Organics</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- More testimonials would go here -->
-            </div>
-            
-            <div class="testimonial-cta">
-                <a href="#" class="cta-button secondary">Read More Success Stories</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Preview -->
-    <section id="blog" class="blog-preview">
-        <div class="container">
-            <h2>Latest Insights</h2>
-            <p class="section-intro">Learn about the latest trends and best practices in our blog.</p>
-            
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <img src="images/blog1.jpg" alt="Web design trends">
-                    <div class="blog-content">
-                        <h3>Top Web Design Trends for 2023</h3>
-                        <p class="meta">June 15, 2023 | 8 min read</p>
-                        <p>Discover the design trends that will dominate the web this year and how to implement them...</p>
-                        <a href="#" class="read-more">Read Article</a>
-                    </div>
-                </article>
-                
-                <article class="blog-card">
-                    <img src="images/blog2.jpg" alt="SEO strategies">
-                    <div class="blog-content">
-                        <h3>SEO Strategies That Actually Work in 2023</h3>
-                        <p class="meta">May 28, 2023 | 10 min read</p>
-                        <p>Cut through the noise with these proven SEO techniques that deliver real results...</p>
-                        <a href="#" class="read-more">Read Article</a>
-                    </div>
-                </article>
-                
-                <article class="blog-card">
-                    <img src="images/blog3.jpg" alt="Conversion optimization">
-                    <div class="blog-content">
-                        <h3>10 Ways to Improve Your Website Conversion Rate</h3>
-                        <p class="meta">May 10, 2023 | 6 min read</p>
-                        <p>Simple but powerful changes you can make to turn more visitors into customers...</p>
-                        <a href="#" class="read-more">Read Article</a>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="blog-cta">
-                <a href="#" class="cta-button secondary">View All Articles</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Signup -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h3>Get Digital Marketing Tips Direct to Your Inbox</h3>
-                <p>Subscribe to our newsletter for monthly insights, strategies, and special offers.</p>
-                
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit" class="cta-button primary">Subscribe</button>
-                </form>
-                
-                <p class="small">We respect your privacy. Unsubscribe at any time.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Ready to Grow Your Business?</h2>
-            <p class="section-intro">Get in touch for a free consultation and project estimate.</p>
-            
-            <div class="contact-grid">
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="service">Service Interested In</label>
-                            <select id="service">
-                                <option value="">Select a service</option>
-                                <option value="web-design">Web Design</option>
-                                <option value="web-development">Web Development</option>
-                                <option value="seo">SEO</option>
-                                <option value="marketing">Digital Marketing</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Tell Us About Your Project</label>
-                            <textarea id="message" rows="5"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="cta-button primary">Send Message</button>
-                    </form>
-                </div>
-                
-                <div class="contact-info">
-                    <h3>Other Ways to Reach Us</h3>
-                    
-                    <div class="contact-method">
-                        <h4>Email</h4>
-                        <p>hello@websolutions.com</p>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <h4>Phone</h4>
-                        <p>(555) 123-4567</p>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <h4>Office Hours</h4>
-                        <p>Monday-Friday: 9am-6pm EST</p>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <h4>Social Media</h4>
-                        <div class="social-links">
-                            <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
-                            <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
-                            <a href="#"><img src="images/linkedin.svg" alt="LinkedIn"></a>
-                            <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <a href="/" class="logo">WebSolutions</a>
-                    <p>Helping businesses thrive online since 2015 with cutting-edge web solutions and digital marketing strategies.</p>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">SEO Services</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">Branding</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-cta">
-                    <h4>Let's Build Something Amazing</h4>
-                    <a href="#contact" class="cta-button primary">Start Your Project</a>
-                    <p>Need immediate help? Call us: (555) 123-4567</p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2023 WebSolutions. All rights reserved.</p>
-                <div class="legal-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+ <nav>
+ <div>
+ <a href="/">WebSolutions</a>
+ <ul>
+ <li><a href="#services">Services</a></li>
+ <li><a href="#portfolio">Portfolio</a></li>
+ <li><a href="#about">About</a></li>
+ <li><a href="#blog">Blog</a></li>
+ <li><a href="#contact">Get Started</a></li>
+ </ul>
+ </div>
+ </nav>
+ <header>
+ <div>
+ <div>
+ <h1>Transform Your Online Presence</h1>
+ <p>We create stunning, high-performance websites that drive results and grow your business.</p>
+ <div>
+ <a href="#contact">Free Consultation</a>
+ <a href="#portfolio">View Our Work</a>
+ </div>
+ </div>
+ <div>
+ <img src="images/hero-image.png" alt="Website design illustration">
+ </div>
+ </div>
+ </header>
+ <section>
+ <div>
+ <p>Trusted by leading brands:</p>
+ <div>
+ <img src="images/client1.png" alt="Client logo">
+ <img src="images/client2.png" alt="Client logo">
+ <img src="images/client3.png" alt="Client logo">
+ <img src="images/client4.png" alt="Client logo">
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h2>Our Comprehensive Services</h2>
+ <p>We offer end-to-end digital solutions tailored to your business needs.</p>
+ <div>
+ <div>
+ <div>📱</div>
+ <h3>Web Design</h3>
+ <p>Beautiful, responsive designs that engage your audience and reflect your brand.</p>
+ <a href="#">Learn more →</a>
+ </div>
+ <div>
+ <div>⚙️</div>
+ <h3>Web Development</h3>
+ <p>Custom-built websites with clean code and powerful functionality.</p>
+ <a href="#">Learn more →</a>
+ </div>
+ <div>
+ <div>📈</div>
+ <h3>SEO Optimization</h3>
+ <p>Get found online with our proven search engine optimization strategies.</p>
+ <a href="#">Learn more →</a>
+ </div>
+ <div>
+ <div>✉️</div>
+ <h3>Email Marketing</h3>
+ <p>Convert leads to customers with targeted, automated email campaigns.</p>
+ <a href="#">Learn more →</a>
+ </div>
+ </div>
+ <div>
+ <p>Not sure what you need? We'll help you choose the right solutions.</p>
+ <a href="#contact">Get Personalized Recommendations</a>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h2>Our Recent Work</h2>
+ <p>See how we've helped businesses like yours achieve remarkable results.</p>
+ <div>
+ <div>
+ <img src="images/portfolio1.jpg" alt="E-commerce website">
+ <div>
+ <h3>GreenLife Organics</h3>
+ <p>E-commerce website with 300% revenue growth</p>
+ <a href="#">Case Study</a>
+ </div>
+ </div>
+ <div>
+ <img src="images/portfolio2.jpg" alt="Corporate website">
+ <div>
+ <h3>FinTrust Capital</h3>
+ <p>Corporate website with lead gen system</p>
+ <a href="#">Case Study</a>
+ </div>
+ </div>
+ <div>
+ <img src="images/portfolio3.jpg" alt="Mobile app">
+ <div>
+ <h3>FitTrack App</h3>
+ <p>Fitness tracking progressive web app</p>
+ <a href="#">Case Study</a>
+ </div>
+ </div>
+ </div>
+ <div>
+ <a href="#">View Full Portfolio</a>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h2>What Our Clients Say</h2>
+ <div>
+ <div>
+ <div>
+ <p>"WebSolutions transformed our online presence. Our website traffic increased by 450% and our conversion rate tripled within 6 months of working with them."</p>
+ </div>
+ <div>
+ <img src="images/client1.jpg" alt="Sarah Johnson">
+ <div>
+ <h4>Sarah Johnson</h4>
+ <p>CEO, GreenLife Organics</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div>
+ <a href="#">Read More Success Stories</a>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h2>Latest Insights</h2>
+ <p>Learn about the latest trends and best practices in our blog.</p>
+ <div>
+ <article>
+ <img src="images/blog1.jpg" alt="Web design trends">
+ <div>
+ <h3>Top Web Design Trends for 2023</h3>
+ <p>June 15, 2023 | 8 min read</p>
+ <p>Discover the design trends that will dominate the web this year and how to implement them...</p>
+ <a href="#">Read Article</a>
+ </div>
+ </article>
+ <article>
+ <img src="images/blog2.jpg" alt="SEO strategies">
+ <div>
+ <h3>SEO Strategies That Actually Work in 2023</h3>
+ <p>May 28, 2023 | 10 min read</p>
+ <p>Cut through the noise with these proven SEO techniques that deliver real results...</p>
+ <a href="#">Read Article</a>
+ </div>
+ </article>
+ <article>
+ <img src="images/blog3.jpg" alt="Conversion optimization">
+ <div>
+ <h3>10 Ways to Improve Your Website Conversion Rate</h3>
+ <p>May 10, 2023 | 6 min read</p>
+ <p>Simple but powerful changes you can make to turn more visitors into customers...</p>
+ <a href="#">Read Article</a>
+ </div>
+ </article>
+ </div>
+ <div>
+ <a href="#">View All Articles</a>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <div>
+ <h3>Get Digital Marketing Tips Direct to Your Inbox</h3>
+ <p>Subscribe to our newsletter for monthly insights, strategies, and special offers.</p>
+ <form>
+ <input type="email" placeholder="Your email address" required>
+ <button type="submit">Subscribe</button>
+ </form>
+ <p>We respect your privacy. Unsubscribe at any time.</p>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h2>Ready to Grow Your Business?</h2>
+ <p>Get in touch for a free consultation and project estimate.</p>
+ <div>
+ <div>
+ <form>
+ <div>
+ <label for="name">Name</label>
+ <input type="text" required>
+ </div>
+ <div>
+ <label for="email">Email</label>
+ <input type="email" required>
+ </div>
+ <div>
+ <label for="phone">Phone</label>
+ <input type="tel">
+ </div>
+ <div>
+ <label for="service">Service Interested In</label>
+ <select>
+ <option value="">Select a service</option>
+ <option value="web-design">Web Design</option>
+ <option value="web-development">Web Development</option>
+ <option value="seo">SEO</option>
+ <option value="marketing">Digital Marketing</option>
+ <option value="other">Other</option>
+ </select>
+ </div>
+ <div>
+ <label for="message">Tell Us About Your Project</label>
+ </div>
+ <button type="submit">Send Message</button>
+ </form>
+ </div>
+ <div>
+ <h3>Other Ways to Reach Us</h3>
+ <div>
+ <h4>Email</h4>
+ <p>hello@websolutions.com</p>
+ </div>
+ <div>
+ <h4>Phone</h4>
+ <p>(555) 123-4567</p>
+ </div>
+ <div>
+ <h4>Office Hours</h4>
+ <p>Monday-Friday: 9am-6pm EST</p>
+ </div>
+ <div>
+ <h4>Social Media</h4>
+ <div>
+ <a href="#">
+ <a href="#">
+ <a href="#">
+ <a href="#">
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <footer>
+ <div>
+ <div>
+ <div>
+ <a href="/">WebSolutions</a>
+ <p>Helping businesses thrive online since 2015 with cutting-edge web solutions and digital marketing strategies.</p>
+ </div>
+ <div>
+ <h4>Services</h4>
+ <ul>
+ <li><a href="#">Web Design</a></li>
+ <li><a href="#">Web Development</a></li>
+ <li><a href="#">SEO Services</a></li>
+ <li><a href="#">Digital Marketing</a></li>
+ <li><a href="#">Branding</a></li>
+ </ul>
+ </div>
+ <div>
+ <h4>Company</h4>
+ <ul>
+ <li><a href="#">About Us</a></li>
+ <li><a href="#">Our Team</a></li>
+ <li><a href="#">Careers</a></li>
+ <li><a href="#">Blog</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </div>
+ <div>
+ <h4>Let's Build Something Amazing</h4>
+ <a href="#contact">Start Your Project</a>
+ <p>Need immediate help? Call us: (555) 123-4567</p>
+ </div>
+ </div>
+ <div>
+ <p>&copy; 2023 WebSolutions. All rights reserved.</p>
+ <div>
+ <a href="#">Privacy Policy</a>
+ <a href="#">Terms of Service</a>
+ <a href="#">Cookie Policy</a>
+ </div>
+ </div>
+ </div>
+ </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Premium Web Solutions | #1 Rated Web Agency in 2024</title>
+ <meta name="description" content="Award-winning web design & development agency increasing client revenue by 300% on average. Get your free SEO audit today.">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://www.yourdomain.com">
+ <meta name="author" content="Your Company">
+ <meta name="keywords" content="web design, web development, SEO, digital marketing, ecommerce solutions">
+ <meta property="og:title" content="Premium Web Solutions | #1 Rated Web Agency">
+ <meta property="og:description" content="Award-winning web design & development agency increasing client revenue by 300% on average.">
+ <meta property="og:image" content="https://www.yourdomain.com/images/social-preview.jpg">
+ <meta property="og:url" content="https://www.yourdomain.com">
+ <meta name="twitter:card" content="summary_large_image">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="preload" as="style" href="css/main.css">
+ <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
+<body>
+ <div>
+ <a href="#main-content">Skip to main content</a>
+ <a href="#footer">Skip to footer</a>
+ </div>
+</body>
+</html>
+<IfModule mod_expires.c>
+ <article>
+ <header>
+ <h1>The Ultimate Guide to Dominating Search Results in 2024</h1>
+ <div>
+ <span>By John Doe, SEO Director</span>
+ <span>Updated: June 10, 2024</span>
+ <span>12 min read</span>
+ </div>
+ </header>
+ <div>
+ <section>
+ <p><strong>Summary:</strong> In this comprehensive guide, we reveal the 7 proven strategies that helped our clients achieve <strong>300% more organic traffic</strong> in 2024. Whether you're a small business or enterprise, these techniques will position you above competitors in search results.</p>
+ <div>
+ <h2>Table of Contents</h2>
+ <ul>
+ <li><a href="#section1">1. Semantic Search Optimization</a></li>
+ <li><a href="#section2">2. Core Web Vitals Mastery</a></li>
+ <li><a href="#section3">3. AI-Powered Content Strategy</a></li>
+ </ul>
+ </div>
+ </section>
+ <section>
+ <h2>1. Semantic Search Optimization</h2>
+ <p>Google's algorithms have evolved beyond simple keyword matching. Today, <strong>context and user intent</strong> dominate ranking factors...</p>
+ <div>
+ <h3>Case Study: Organic Traffic Growth</h3>
+ <p>Our client "GreenLife Organics" saw a <strong>450% increase</strong> in organic traffic after implementing semantic search techniques...</p>
+ <img src="/images/semantic-search-graph.jpg" alt="Traffic growth graph after semantic search implementation" loading="lazy">
+ </div>
+ </section>
+ <section>
+ <h2>Key Takeaways</h2>
+ <ul>
+ <li>Focus on <strong>topic clusters</strong> rather than individual keywords</li>
+ <li>Achieve <strong>90+ scores</strong> in all Core Web Vitals metrics</li>
+ <li>Leverage AI tools for <strong>content ideation</strong> but maintain human quality</li>
+ </ul>
+ </section>
+ <div>
+ <h3>Ready to Dominate Search Results?</h3>
+ <p>Our team of SEO experts can audit your website and create a custom strategy to put you ahead of competitors.</p>
+ <a href="/contact">Get Your Free SEO Audit</a>
+ </div>
+ </div>
+ <footer>
+ <div>
+ <img src="/images/john-doe.jpg" alt="John Doe" loading="lazy">
+ <div>
+ <h4>About John Doe</h4>
+ <p>With over 12 years of SEO experience, John has helped Fortune 500 companies and startups alike achieve top rankings. He specializes in technical SEO and AI-driven content strategies.</p>
+ </div>
+ </div>
+ <div>
+ <p>Share this article:</p>
+ <a href="#" aria-label="Share on Twitter">
+ <a href="#" aria-label="Share on LinkedIn">
+ <a href="#" aria-label="Share on Facebook">
+ </div>
+ <div>
+ <h3>Related Articles</h3>
+ <ul>
+ <li><a href="/blog/technical-seo">The Complete Technical SEO Checklist for 2024</a></li>
+ <li><a href="/blog/content-strategy">How to Create Content That Ranks and Converts</a></li>
+ <li><a href="/blog/local-seo">Local SEO: Dominate Your Local Market in 5 Steps</a></li>
+ </ul>
+ </div>
+ </footer>
+</article>
